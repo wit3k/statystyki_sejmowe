@@ -11,17 +11,20 @@ Chciałem sobie samemu udzielić odpowiedzi na następujące pytania:
 
 W katalogu `/wykresy` znajdują się zrzuty ekranów dla wszystkich wykresów jakie przygotowałem po drodze.
 
+### 01_A_staz
 [![](./wykresy/01_A_fotele.png)](./wykresy/01_A_fotele.png)
-- wylres ilości miejsc w sejmi z podziałem na *kluby*
+- wykres ilości miejsc w sejmi z podziałem na *kluby*
 - wykres przedstawia ilość miejsc w sejmie, a nie proporcje zdobytych głosów (fałszerstwa PPR + system d'Honta)
 - pierwszy słupek to Sejm Ustawodawczy. Na oko wygląda tak jakby był pluralizm, ale 80% to "Blok Demokratyczny" (PPS, PPR, SL, SD)
 - między 2001 - 2011 Platforma Obywatelska zaznaczona jest kolorem ciemnozielonym, potem jest widoczna w różnych odcieniach fioletowego ponieważ koło zmieniało nazwę co kadencję
 
+### 01_B_staz
 [![](./wykresy/01_B_fotele.png)](./wykresy/01_B_fotele.png)
-- wylres ilości miejsc w sejmi z podziałem na *listy wyborcze*
+- wykres ilości miejsc w sejmi z podziałem na *listy wyborcze*
 - na stronie sejm.gov.pl nie znalazłem informacji o listach wyborczych z PRL, więc ta część wykresu jest pusta
 
 
+### 02_A_retencja
 [![](./wykresy/02_A_retencja.png)](./wykresy/02_A_retencja.png)
 - wykres przedstawia poziom retencji posłów z podziałem na *kluby*
 - rozmiar prostokątów zależny jest od ilości posłów, któży byli już wcześniej posłami
@@ -29,19 +32,24 @@ W katalogu `/wykresy` znajdują się zrzuty ekranów dla wszystkich wykresów ja
 - (3 posłów z 1+1 kadencji, to to samo co 1 poseł z 1+3 kadencji)
 - te same uwagi co do kolorów PO, oraz czasów PRL co wyżej
 
+### 02_B_retencja
 [![](./wykresy/02_B_retencja.png)](./wykresy/02_B_retencja.png)
 - wykres przedstawia poziom retencji posłów z podziałem na *listy wyborcze*
 - te same uwagi co do kolorów PO, oraz czasów PRL co wyżej
 
-
+### 03_A_staz
 [![](./wykresy/03_A_staz.png)](./wykresy/02_A_staz.png)
 - wykres przedstawia poziom retencji posłów z podziałem na *kluby* w kolejnych kadencjach
 [![](./wykresy/03_B_staz.png)](./wykresy/02_B_staz.png)
+
+### 03_B_staz
 - wykres przedstawia poziom retencji posłów z podziałem na *listy wyborcze* w kolejnych kadencjach
 
+### 04_A_heatmap
 [![](./wykresy/04_A_heatmap.png)](./wykresy/04_A_heatmap.png)
 - mapa cieplna dla danych z wykresu 02_A_staz.png
 
+### Rekordziści
 W plikach `rekordzisci_3rp.csv` oraz `rekordzisci_prl.csv` znajdują się listy posłów z najdłuższym stażem.
 
 Top 10 dla IIIRP:
