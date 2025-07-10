@@ -16,7 +16,8 @@ Chciałem sobie samemu udzielić odpowiedzi na następujące pytania:
 - Do sprawdzenia jak to wygląda na szczeblu lokalnym (tam może być większy przeciąg)
 - POPiS ma bardzo dużą retencję posłów, ale w zdecydowanej większości są oni lojalni swoim partiom
 - Nie tylko POPiS, ale ogólnie politycy mają tendencję do zmiany partii, dopiero po tym jak ich obecna wpadnie pod próg wyborczy (nadal wygląda na to że statystycznie jest to bardzo małe zjawisko)
-
+- Lata '90 i wczesne 2000 obfitowały w przetasowania polityczne.
+- Ostatnie 20 lat to umacnianie się PO i PiS (może i mało odkrywcze, ale teraz mam na to dane i ładny wykres)
 
 [![](./liski_hitruski/farbowane_lisy_mini.png)](./liski_hitruski/farbowane_lisy.png)
 - całość diagramu dostępna [TUTAJ(PNG)](https://raw.githubusercontent.com/wit3k/statystyki_sejmowe/7701ac63537029cca0624e3fd0d751b849132a72/liski_hitruski/farbowane_lisy.png),  oraz [TUTAJ(SVG)](./liski_hitruski/farbowane_lisy.svg)
