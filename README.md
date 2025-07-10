@@ -39,13 +39,10 @@ W katalogu `/wykresy` znajdują się zrzuty ekranów dla wszystkich wykresów ja
 
 ### 03_A_staz
 [![](./wykresy/03_A_staz.png)](./wykresy/02_A_staz.png)
-
-### 03_B_staz
 - wykres przedstawia poziom retencji posłów z podziałem na *kluby* w kolejnych kadencjach
-[![](./wykresy/03_B_staz.png)](./wykresy/02_B_staz.png)
-- wykres przedstawia poziom retencji posłów z podziałem na *listy wyborcze* w kolejnych kadencjach
 
 ### 03_B_staz
+[![](./wykresy/03_B_staz.png)](./wykresy/02_B_staz.png)
 - wykres przedstawia poziom retencji posłów z podziałem na *listy wyborcze* w kolejnych kadencjach
 
 ### 04_A_heatmap
@@ -112,4 +109,3 @@ Top 10 dla PRL:
 - wszystkie widoki można łatwo samemu wyklikać, ale w tym repozytorium znajduje się plik `./dashboard_export_20250710T073539.zip`
 - trzeba tylko pamiętać o tym żeby najpierw zaimportować CSV, a dopiero potem dashboard (&charts)
 - podgląd tego jak to powinno wyglądać załączam w PDFie: `./statystyki-sejmowe.pdf`
-
