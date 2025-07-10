@@ -39,15 +39,18 @@ W katalogu `/wykresy` znajdują się zrzuty ekranów dla wszystkich wykresów ja
 
 ### 03_A_staz
 [![](./wykresy/03_A_staz.png)](./wykresy/02_A_staz.png)
+
+### 03_B_staz
 - wykres przedstawia poziom retencji posłów z podziałem na *kluby* w kolejnych kadencjach
 [![](./wykresy/03_B_staz.png)](./wykresy/02_B_staz.png)
+- wykres przedstawia poziom retencji posłów z podziałem na *listy wyborcze* w kolejnych kadencjach
 
 ### 03_B_staz
 - wykres przedstawia poziom retencji posłów z podziałem na *listy wyborcze* w kolejnych kadencjach
 
 ### 04_A_heatmap
 [![](./wykresy/04_A_heatmap.png)](./wykresy/04_A_heatmap.png)
-- mapa cieplna dla danych z wykresu 02_A_staz.png
+- mapa cieplna dla danych z wykresu 02_B_staz.png
 
 ### Rekordziści
 W plikach `rekordzisci_3rp.csv` oraz `rekordzisci_prl.csv` znajdują się listy posłów z najdłuższym stażem.
@@ -78,3 +81,35 @@ Top 10 dla PRL:
 |Jan Karol Wende      |    6         |
 |Lucjan Motyka        |    6         |
 |Stanisław Kulczyński |    6         |
+
+# Jak można samemu wygenerować raporty
+
+## Najłatwiej
+- pobierz plik `orka_sejm_gov_pl.ods` - arkusz kalkulacyjny przyjacielem twym
+
+## Ambitniej (wszystkie kroki są opcjonalne i można zacząć od dowolnego momentu)
+1. Scraper
+- W katalogu `./puppeteer-scraper/` znajduje się scraper strony `orka.sejm.gov.pl`, która jest archiwum danych o posałach z poprzednich kadencji (na liście nie ma obecnej kadencji)
+- przed pierwszym uruchomieniem skryptu uruchom: `npm install`
+- do pobrania całej zawartości uruchom: `node scrapeWithCaptcha.js`
+- otworzy się Chrome. Jeśli wyskoczy CAPTCHA trzeba ją ręcznie wpisać i nacisnąć spację w konsoli
+- całość (ok 10 tysięcy) stron pobiera się ok 20 minut
+
+2. HTML -> JSON
+- w katalogu `./gov.pl_to_json/` jest mały skrypt, który wyciąga z HTML dane, których można potem użyć do generowania raportów
+- przed pierwszym uruchomieniem: `npm install`
+- a potem: `node index.js`
+- w pliku `output.json` pojawią się zaktualizowane dane.
+  - Ten plik już jest w repozytorium i nie powinien się zmienić przed końcem kadencji (inaczej oznaczałoby to że ktoś gmera w historycznych danych dot. posłów)
+
+3. JSON -> CVS
+- Żeby przerobić plik tekstowy z dużą ilośćią wąsów {} na tabelę można użyć jakiegoś narzędzia online, AI, albo tak jak ja zaimportować dane do NocoDB
+- do surowej tabelki dorzuciłem jeszcze ręcznie kolumnę z chronologią (sortowanie po nazwie kadencji jest zawodne)
+- plik zawierający wszystkie dane znajduje się pod: `./orka_sejm_gov_pl.csv`
+- plik CSV polecam zaimportować do MySQL/PostgreSQL tak żeby można było użyć tych danych w Apache Superset
+
+4. raporty w Apache Superset
+- wszystkie widoki można łatwo samemu wyklikać, ale w tym repozytorium znajduje się plik `./dashboard_export_20250710T073539.zip`
+- trzeba tylko pamiętać o tym żeby najpierw zaimportować CSV, a dopiero potem dashboard (&charts)
+- podgląd tego jak to powinno wyglądać załączam w PDFie: `./statystyki-sejmowe.pdf`
+
