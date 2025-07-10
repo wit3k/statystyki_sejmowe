@@ -9,6 +9,19 @@ Chciałem sobie samemu udzielić odpowiedzi na następujące pytania:
 
 # Wyniki
 
+
+### Liski hitruski
+- Dane z sejm.gov.pl przemieliłem tak żeby widzieć jak politycy z kadencji, na kadencję, zmieniają barwy partyjne.
+- O dziwo zjawisko obrotowych drzwi nie jest tak widoczne w sejmie.
+- Do sprawdzenia jak to wygląda na szczeblu lokalnym (tam może być większy przeciąg)
+- POPiS ma bardzo dużą retencję posłów, ale w zdecydowanej większości są oni lojalni swoim partiom
+- Nie tylko POPiS, ale ogólnie politycy mają tendencję do zmiany partii, dopiero po tym jak ich obecna wpadnie pod próg wyborczy (nadal wygląda na to że statystycznie jest to bardzo małe zjawisko)
+
+
+[![](./liski_hitruski/farbowane_lisy_mini.png)](./liski_hitruski/farbowane_lisy.png)
+- całość diagramu dostępna [TUTAJ(PNG)](./liski_hitruski/farbowane_lisy.png),  oraz [TUTAJ(SVG)](./liski_hitruski/farbowane_lisy.svg)
+- sposób generowania w opisie poniżej
+
 W katalogu `/wykresy` znajdują się zrzuty ekranów dla wszystkich wykresów jakie przygotowałem po drodze.
 
 ### 01_A_staz
@@ -48,6 +61,12 @@ W katalogu `/wykresy` znajdują się zrzuty ekranów dla wszystkich wykresów ja
 ### 04_A_heatmap
 [![](./wykresy/04_A_heatmap.png)](./wykresy/04_A_heatmap.png)
 - mapa cieplna dla danych z wykresu 02_B_staz.png
+
+### 05_A_swieze_mieso
+[![](./wykresy/05_A_swieze_mieso.png)](./wykresy/05_A_swieze_mieso.png)
+- pokazuje ilu nowych polityków miało szansę zaistnieć w nowym rządzie
+
+
 
 ### Rekordziści
 W plikach `rekordzisci_3rp.csv` oraz `rekordzisci_prl.csv` znajdują się listy posłów z najdłuższym stażem.
