@@ -1,0 +1,12 @@
+flow
+"{target=""1952_OUT"", source=""1957_bezp. ZNAK "", value=9},"
+"{target=""1952_ "", source=""1957_bezp. "", value=9},"
+"{target=""1952_OUT"", source=""1957_OUT"", value=5175},"
+"{target=""1952_OUT"", source=""1957_SD "", value=30},"
+"{target=""1952_ "", source=""1957_OUT"", value=363},"
+"{target=""1952_ "", source=""1957_SD "", value=12},"
+"{target=""1952_OUT"", source=""1957_ZSL "", value=106},"
+"{target=""1952_OUT"", source=""1957_bezp. "", value=52},"
+"{target=""1952_OUT"", source=""1957_PZPR "", value=211},"
+"{target=""1952_ "", source=""1957_ZSL "", value=22},"
+"{target=""1952_ "", source=""1957_PZPR "", value=56},"
