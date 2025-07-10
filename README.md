@@ -19,7 +19,8 @@ Chciałem sobie samemu udzielić odpowiedzi na następujące pytania:
 
 
 [![](./liski_hitruski/farbowane_lisy_mini.png)](./liski_hitruski/farbowane_lisy.png)
-- całość diagramu dostępna [TUTAJ(PNG)](./liski_hitruski/farbowane_lisy.png),  oraz [TUTAJ(SVG)](./liski_hitruski/farbowane_lisy.svg)
+- całość diagramu dostępna [TUTAJ(PNG)](https://raw.githubusercontent.com/wit3k/statystyki_sejmowe/7701ac63537029cca0624e3fd0d751b849132a72/liski_hitruski/farbowane_lisy.png),  oraz [TUTAJ(SVG)](./liski_hitruski/farbowane_lisy.svg)
+- obie grafiki po otworzeniu wydają się bardzo małe, ale trzeba je sobie przybliżyć
 - sposób generowania w opisie poniżej
 
 W katalogu `/wykresy` znajdują się zrzuty ekranów dla wszystkich wykresów jakie przygotowałem po drodze.
