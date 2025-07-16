@@ -9,6 +9,35 @@ Chciałem sobie samemu udzielić odpowiedzi na następujące pytania:
 
 # Wyniki
 
+### Postkomuniści
+
+Najważniejsze wnioski:
+- nigdy w czasach 3RP nie rządziło aż tak dużo postkomunistów (chyba że za takie potraktujemy rządy SLD)
+- większość ludzi z czasów PRL po prostu już nie żyje
+- największy punkt wspólny między PRL a 3RP miało PSL (dawno, dawno temu)
+
+*Postkomuna:*
+- Jerzy Szmajdziński - 1985 PZPR, 2007 Lewica
+- Zofia Grzebisz-Nowicka - 1980 PZPR, 2001 SLD
+- Rajmund Moric - 1985 PZPR, 2005 Samoobrona << przefarbowany
+- Jacek Piechota - 1985 PZPR, 2005 SLD
+- Jerzy Jaskiernia - 1980 PZPR, 2001 SLD
+- Tadeusz Biliński - 1985 PZPR, 1997 SLD << chłop ma prawie 100 lat, stary komuch jeszcze się trzyma
+
+*Posłowie z PRL, ale totalnie nie postkomuna:*
+ - Jan Olszewski - 1957 PZPR, 2001 LPR, zm. 7 lutego 2019
+ - Tadeusz Mazowiecki - 1961 bezp. ZNAK, 1997 Unia Wolności, zm. 28 października 2013
+ - Eugeniusz Czykwin - 1985 bezp. ChSS, 2019 PO
+ - Hanna Suchocka - 1980 bezpartyjna, 1997 Unia Wolności
+
+*Ludowcy:*
+ - Stanisław Żelichowski - 1985 ZSL, 2011 PSL
+ - Józef Cinal - 1969 ZSL, 1991 PSL , zm. 5 lipca 2020
+ - Waldemar Michna - 1980 ZSL, 1993 PSL, zm. 21 lutego 2013
+ - Edward Gnat - 1985 ZSL, 1993 PSL
+ - Marian Król - 1985 ZSL, 1993 PSL
+ - Mikołaj Kozakiewicz - 1985 ZSL, 1991 PSL
+ - Włodzimierz Wiertek - 1985 ZSL, 1991 PSL
 
 ### Liski hitruski
 - Dane z sejm.gov.pl przemieliłem tak żeby widzieć jak politycy z kadencji, na kadencję, zmieniają barwy partyjne.
